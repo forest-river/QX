@@ -1,0 +1,9 @@
+# 知乎去广告，以下规则请放置在filter_local最顶部
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+DOMAIN-SUFFIX,118.89.204.198,REJECT
+# 知乎去广告，以下规则的位置越前方越好
+DOMAIN-SUFFIX,mqtt.zhihu.com,reject
+DOMAIN-SUFFIX,sugar.zhihu.com,reject
+DOMAIN-SUFFIX,appcloud2.in.zhihu.com,REJECT
+USER-AGENT,AVOS*,REJECT
