@@ -1,7 +1,7 @@
 {
     "id": "ForestRiver",
     "name": "ForestRiver 任务脚本，采集自网络",
-    "description": "自用任务",
+    "description": "自用任务,https://raw.githubusercontent.com/forest-river/QX/master/Task/myTask.json",
     "author": "@ForestRiver",
     "task":[
         "35 5 0 * * * https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, tag=中青看点, enabled=true",
