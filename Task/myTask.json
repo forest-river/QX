@@ -1,0 +1,12 @@
+{
+    "id": "ForestRiver",
+    "name": "ForestRiver 任务脚本，采集自网络",
+    "description": "自用任务",
+    "author": "@ForestRiver",
+    "task":[
+        "* * * * 1/1 ? https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js, tag=中青看点, enabled=true",
+        "* * * * 1/1 ? https://raw.githubusercontent.com/Sunert/Script/master/Task/youth_gain.js, tag=中青看点浏览赚,  enabled=true",
+        "* * * * 1/1 ? https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js, tag=中青看点阅读,  enabled=true"
+
+    ]
+  }
